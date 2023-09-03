@@ -1,0 +1,54 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 150%;
+}
+/* #region about */
+.about {
+  background-color: #E25544;
+  color: white;
+  padding: 32px 40px 24px 40px;
+  display: flex;
+}
+
+.about__name {
+  margin: 0 0 8px 0;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.about__role {
+  margin: 0 0 8px 0;
+  font-size: 12px;
+  line-height: normal;
+}
+
+.about__text {
+  margin: 0;
+}
+
+.about__foto {
+  width: 114px;
+  height: 114px;
+  border-radius: 114px;
+  margin-left: 50px;
+}
+/* #endregion */
+
+.main {
+  padding: 0 40px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.contacts__link {
+  color: #485268;
+  text-decoration: none;
+}
