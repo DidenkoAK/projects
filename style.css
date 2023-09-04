@@ -11,6 +11,7 @@ body {
   line-height: 150%;
   color: #485268;
   width: 595px;
+  background-color: #E5E5E5;
 }
 
 strong {
@@ -52,6 +53,7 @@ strong {
 
 .main {
   padding: 0 40px;
+  background-color: #fff;
 }
 /* #region contact */
 .contacts {
@@ -137,3 +139,46 @@ strong {
 }
 /* #endregion */
 
+/* #region skills */
+.skills {
+  display: flex;
+}
+
+.skills__list {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+  list-style: none;
+}
+
+.skills__item {
+  margin-top: 8px;
+}
+
+.skills__item:first-child {
+  margin-top: 0;
+}
+/* #endregion */
+
+.tools {
+  display: flex;
+}
+
+.tools__list {
+  box-sizing: border-box;
+  width: 50%;
+  margin: 0;
+  border-left: 1px dashed #DEE2ED;
+  padding-left: 8px;
+  list-style: none;
+}
+
+.tools__item {
+  margin-top: 8px;
+}
+
+.tools__item:first-child {
+  margin-top: 0;
+}
